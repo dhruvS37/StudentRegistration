@@ -40,6 +40,7 @@ submit.onclick = () => {
     console.log(typeof(dob),dob)
     if(formValidation())
         displayStdList();
+    img_src="DummyImg.png"
 }
 
 function displayStdList() {
