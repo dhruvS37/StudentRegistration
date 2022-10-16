@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Student Registration Form</h1>
+    </header>
+    <div class="container">
+        <form action="#" class="myform">
+            <p class="border"></p>
+            <h2>Register here</h2>
+            <p class="border"></p>
+            <table style="width:60%">
+                <tr>
+                    <td style="width: 40%"><label class="label" for="Name">Name</label></td>
+                    <td><input type="textarea" class="textarea" id="name" required></td>
+                </tr>
+
+                <tr>
+                    <td><label class="label" for="enrol">Enrollment No.</label></td>
+                    <td><input type="textarea" class="textarea" id="enrol" required></td>
+                </tr>
+
+                <tr>
+                    <td><label class="label" for="email">Email</label></td>
+                    <td><input type="textarea" class="textarea " id="email"></td>
+                </tr>
+
+                <tr>
+                    <td><label class="label" for="mob">Mobile No.</label></td>
+                    <td><input type="textarea" class="textarea" id="mob" required></td>
+                </tr>
+
+                <tr>
+                    <td><label class="label" for="Gender">Gender</label></td>
+                    <td>
+                        <div class="radio-group">
+                            <label class="label" for="male" value="Male">Male :</label>
+                            <input type="radio" name="Gender" value="male" required>
+
+                            <label class="label" for="female" value="Female">Female :</label>
+                            <input type="radio" name="Gender" value="female">
+
+                            <label for="other" value="Other" class="label">Other :</label>
+                            <input type="radio" name="Gender" value="other">
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label class="label" for="img">Upload Image</label></td>
+                    <td><input type="file" class="file" id="file"></td>
+                </tr>
+
+                <tr>
+                    <td><label class="label" for="dob">Date Of Birth:</label></td>
+                    <td><input type="date" class="dob" id="dob" required></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="submit" class="regibtn" id="submit" value="Register">
+                </tr>
+            </table>
+        </form>
+
+        <div class="detailBox">
+            <p class="border"></p>
+            <h2>Enrolled Student</h2>
+            <p class="border"></p>
+            <ul class="stdlist">
+                <li class="stdlist-row">
+                    <div class="info">
+                        <h3> Full Name</h2>
+                            <p>Enrollment Number</p>
+                            <p>eg:-abc@gmail.com</p>
+                            <p>Male</p>
+                            <p>08/05/2000</p>
+                            <p>9592326956</p>
+                    </div>
+                    <div class="img">
+                        <img src="DummyImg.png" alt="" width="150" height="180">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
