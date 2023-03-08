@@ -43,6 +43,9 @@ console.log(myForm)
         displayStdList();
         img_src = "DummyImg.png"
     }
+    // img_src="DummyImg.png"
+
+
 function displayStdList() {
     let newList = '';
     if (studentListArray != undefined) {
